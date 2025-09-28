@@ -12,7 +12,7 @@ An interactive web application to predict whether a patient has diabetes based o
 
 ## 📂 Project Structure
 
-\```bash
+```bash
 diabetes-predictor-ml/
 │── demo/                       # Folder containing demo video of app usage
 │── screenshots/                # Folder containing screenshots of app usage and results
@@ -23,7 +23,7 @@ diabetes-predictor-ml/
 │── requirements.txt            # Python dependencies
 │── scaler.pkl                  # Saved StandardScaler for input normalization
 └── README.md                   # Project documentation
-\```
+```
 
 ---
 

@@ -72,10 +72,10 @@ Click [here](screenshots/) to view all screenshots.
 - **AUC (ROC):** 0.988  
 
 **Confusion Matrix:**  
-\```bash
+```bash
 [[16664   775]   → True Negatives / False Positives
  [ 1323 16304]]   → False Negatives / True Positives
-\```
+```
 
 > The model shows strong performance in distinguishing diabetic and non-diabetic patients. High recall for diabetes means it effectively detects actual diabetic patients.
 
@@ -85,20 +85,20 @@ Click [here](screenshots/) to view all screenshots.
 
 ### **Run Streamlit App (Recommended)**
 1. Clone this repository:
-\```bash
+```bash
 git clone https://github.com/colinwilson06/diabetes-predictor-ml.git
 cd diabetes-predictor-ml
-\```
+```
 
 2. Install dependencies:
-\```bash
+```bash
 pip install -r requirements.txt
-\```
+```
 
 3. Run the app:
-\```bash
+```bash
 streamlit run app_diabetes.py
-\```
+```
 
 4. Open your browser → go to `http://localhost:8501`  
 
@@ -111,9 +111,9 @@ streamlit run app_diabetes.py
 ### **Run Jupyter Notebook (Optional)**
 If you want to see the model training & evaluation:
 
-\```bash
+```bash
 jupyter notebook src/Diabetes_Logistic2.ipynb
-\```
+```
 
 ---
 
@@ -129,9 +129,9 @@ jupyter notebook src/Diabetes_Logistic2.ipynb
 - streamlit  
 
 Install all dependencies with:  
-\```bash
+```bash
 pip install -r requirements.txt
-\```
+```
 
 ---
 
